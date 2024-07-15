@@ -17,9 +17,9 @@ function Projects() {
             </div>
 
             <div className='bg-[#EEF5FF] h-fit w-[85vw] md:w-[80vw] py-8 flex items-center justify-center flex-wrap gap-8'>
-                {projectsAssets.map((element) => {
+                {projectsAssets.map((element,i) => {
                     return <>
-                        <div className='h-fit w-[270px] md:w-[35vw] lg:w-[25vw]  bg-[#EEF7FF] shadow-xl hover:shadow-2xl hover:scale-[1.02] duration-[75ms] relative'>
+                        <div key={i} className='h-fit w-[270px] md:w-[35vw] lg:w-[25vw]  bg-[#EEF7FF] shadow-xl hover:shadow-2xl hover:scale-[1.02] duration-[75ms] relative'>
                             <img src={element.image} className='w-fit hover:scale-110 duration-150' alt='img' />
                             <div className='p-2 pl-3 w-[90%] text-[#090A0E] flex flex-col gap-[0.5rem]'>
                                 <h3 className='text-lg font-semibold'>{element.name}</h3>

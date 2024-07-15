@@ -1,8 +1,8 @@
 import React from 'react'
-import splashImg from "../assets/splashWhite.png"
-import personImg from "../assets/personBlack&White.jpg"
+import splashImg from "../assets/general/splashWhite.png"
+import personImg from "../assets/general/personBlack&White.jpg"
 
-import signatureImg from "../assets/Signature.jpg"
+import signatureImg from "../assets/general/Signature.jpg"
 
 function About() {
     return (

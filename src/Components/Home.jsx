@@ -1,6 +1,6 @@
 import React from "react"
-import splashImg from "../assets/splash.png"
-import personImg from "../assets/personImg.png"
+import splashImg from "../assets/general/splash.png"
+import personImg from "../assets/general/personImg.png"
 
 const Home = () => {
     return <>
@@ -34,7 +34,7 @@ const Home = () => {
             {/* social links */}
             <div className="absolute bottom-8 left-12  sm:text-lg flex flex-col sm:flex-row gap-4 duration-150">
                 <a href="https://www.linkedin.com/in/harsh-patel-84baa62b8"><i className="fa-brands fa-linkedin-in hover:scale-110 duration-75 active:text-red-600"></i></a>
-                <a href="mailto:harshcode07@gmail.com"><i class="fa-regular fa-envelope hover:scale-110 duration-75 active:text-red-600"></i></a>
+                <a href="mailto:harshcode07@gmail.com"><i className="fa-regular fa-envelope hover:scale-110 duration-75 active:text-red-600"></i></a>
                 <a href="https://github.com/harshGitHub03" className="h-fit w-fit"><i className="fa-brands fa-github hover:scale-110 duration-75 active:text-red-600"></i></a>
                 <a href="https://www.instagram.com/harsh_.vibes"> <i className="fa-brands fa-instagram hover:scale-110 duration-75 active:text-red-600"></i></a>
             </div>

@@ -13,7 +13,7 @@ function Navbar({ hamburgerIcon, setHamburgerIcon }) {
       </div>
 
       <div className='flex justify-center items-center sm:hidden text-3xl z-10'>{
-        hamburgerIcon == true ? <i class="fa-solid fa-bars-staggered p-1" onClick={()=>setHamburgerIcon(false)}></i> : <i class="fa-solid fa-xmark p-1" onClick={()=>setHamburgerIcon(true)}></i>
+        hamburgerIcon == true ? <i className="fa-solid fa-bars-staggered p-1" onClick={()=>setHamburgerIcon(false)}></i> : <i className="fa-solid fa-xmark p-1" onClick={()=>setHamburgerIcon(true)}></i>
       }
       </div>
     </div>
