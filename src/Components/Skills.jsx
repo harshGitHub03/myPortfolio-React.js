@@ -1,6 +1,6 @@
 import React from "react"
 // import reactLogo from "../assets/skills/SkillsSVG/react-logo-vector.svg"
-import { technology, frameWorks } from "../assets/skillsSVG/skillsAssets.jsx"
+import { technology, frameWorks } from "../assets/skillsAssets/skillsAssets"
 const Skills = () => {
 
     return <>

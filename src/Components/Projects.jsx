@@ -32,7 +32,7 @@ function Projects() {
                                 </div>
 
                                 {/* link to visit */}
-                                <i className="fa-solid fa-up-right-from-square text-lg hover:scale-125 absolute bottom-2 right-3 cursor-pointer" ></i>
+                                <a href={element.deployLink}><i className="fa-solid fa-up-right-from-square text-lg hover:scale-125 absolute bottom-2 right-3 cursor-pointer" ></i></a>
                             </div>
                         </div>
                     </>

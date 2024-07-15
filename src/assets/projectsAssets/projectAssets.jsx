@@ -3,8 +3,9 @@ const projectsAssets=[
     {
         image:weatherApp,
         name:"Weather App",
-        discription:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quidem animi impedit inventore ratione ad, minima sunt natus! Quaerat assumenda ex quia libero architecto.",
-        technology:["API","REACT","TAILWIND"]
+        discription:"Weather app enables users to access real-time weather data based on their Current location or any location they search for. By incorporating features such as live location updates, precise location search capabilities, and integration with weather APIs like OpenWeatherMap.",
+        technology:["API","REACT","TAILWIND"],
+        deployLink:"https://weatherapp-reactjs-harsh.netlify.app/"
     },
 
 ]

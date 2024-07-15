@@ -1,9 +1,9 @@
-import htmlLogo from "../skillsSVG/htmlLogo.png"
-import cssLogo from "../skillsSVG/cssLogo.png"
-import javascriptLogo from "../skillsSVG/javascriptLogo.png"
-import reactLogo from "../skillsSVG/reactLogo.png"
-import tailwindLogo from "../skillsSVG/tailwindLogo.png"
-import bootstrapLogo from "../skillsSVG/bootstrapLogo.png"
+import htmlLogo from "./htmlLogo.png"
+import cssLogo from "./cssLogo.png"
+import javascriptLogo from "./javascriptLogo.png"
+import reactLogo from "./reactLogo.png"
+import tailwindLogo from "./tailwindLogo.png"
+import bootstrapLogo from "./bootstrapLogo.png"
 
 const technology = [
     {
