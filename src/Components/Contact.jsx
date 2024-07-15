@@ -27,19 +27,19 @@ const Contact = () => {
                 </div>
 
 
-                <form action='' className='flex flex-col items-start gap-11 w-[80vw] sm:w-2/3 md:w-1/3 p-8 bg-white rounded-[20px]'>
+                <form action='https://formspree.io/f/xvgpgbdl' method='POST' enctype="multipart/form-data" className='flex flex-col items-start gap-11 w-[80vw] sm:w-2/3 md:w-1/3 p-8 bg-white rounded-[20px]'>
                     <h3 className='text-3xl font-semi-col'>Send me a Message</h3>
                     <div className='w-full'>
                         <h5 className='text-sm text-gray-600 mb-1'>Full Name*</h5>
-                        <input type="text" required className='outline-none w-full border-b-2' />
+                        <input type="text" required   name='Name' className='outline-none w-full border-b-2' />
                     </div>
                     <div className='w-full'>
                         <h5 className='text-sm text-gray-600 mb-1'>Email*</h5>
-                        <input type="text" required className='outline-none w-full border-b-2' />
+                        <input type="text" required   name='Gmail' className='outline-none w-full border-b-2' />
                     </div>
                     <div className='w-full'>
                         <h5 className='text-sm text-gray-600 mb-1'>Your Message*</h5>
-                        <textarea required className='outline-none m-full  max-h-[100px] min-h-2 border-b-2 w-full' ></textarea>
+                        <textarea required   name='text' className='outline-none m-full  max-h-[100px] min-h-2 border-b-2 w-full' ></textarea>
                     </div>
 
                     <button className='bg-[#d5e6ff]  px-3 py-2 rounded-xl text-[1.15rem] font-md hover:bg-[#E3EAF4] active:bg-[#BFCFE5] active:text-white'>Send <i class="fa-solid fa-paper-plane"></i></button>
