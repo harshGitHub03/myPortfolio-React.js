@@ -1,14 +1,14 @@
 import React from "react"
 import splashImg from "../assets/general/splash.png"
-import personImg from "../assets/general/personImg.png"
+import homeImg from "../assets/general/homeImg.jpg"
 
 const Home = () => {
     return <>
-        <div id="home" className="animate-fadeIn relative min-h-[550px]  w-screen bg-[#EEF5FF] flex justify-center items-center">
-            <div className=" w-screen flex justify-center items-center flex-col-reverse gap-16 sm:gap-0 sm:flex-row">
+        <div id="home" className="animate-fadeIn relative h-fit  w-screen bg-[#EEF5FF] flex justify-center items-center">
+            <div className=" w-screen flex  min-h-[87vh] h-fit justify-around items-center flex-col-reverse gap- sm:gap-0 sm:flex-row py-2">
 
                 {/* text section */}
-                <div className=" w-2/5 flex flex-col ">
+                <div className=" w-2/5 flex max-sm:gap-2 flex-col ">
 
                     <div className="flex items-center gap-3 mb-2">
                         <div className="w-7 h-[1.2px] bg-[#090A0E]"></div>
@@ -24,10 +24,8 @@ const Home = () => {
                 </div>
 
                 {/* image section */}
-                <div className="relative w-[55vw]  sm:w-[40vw] h-[40vw] sm:h-[40vw] flex justify-center items-center ">
-                    <img src={splashImg} className="  absolute" />
-                    <img src={personImg} className="  mix-blend-lighten absolute w-[80%] md:w-[25vw]" />
-                </div>
+                <img src={homeImg} className="w-[40vw] max-[500px]:w-[60vw] max-sm:w-[56vw] sm:pb-8" />
+
             </div>
 
 

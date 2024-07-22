@@ -5,10 +5,10 @@ const Skills = () => {
 
     return <>
         <div id="skills" className="bg-[#EEF5FF] h-fit  w-screen flex flex-col lg:flex-row justify-evenly items-center  py-14 gap-5 sm:gap-0">
-            <div className="w-2/3 sm:w-1/3 flex flex-col items-center lg:items-start gap-2 pl-10 ">
+            <div className="w-2/3 sm:w-1/3 flex flex-col items-center lg:items-start gap-2 sm:pl-10 ">
 
-                <div className="flex items-center gap-3">
-                    <div className="w-7 h-[1.4px] hidden sm:flex bg-[#090A0E]"></div>
+                <div className="flex items-center gap-2 sm:gap-3 ">
+                    <div className="w-6 h-[1.5px] bg-[#090A0E]"></div>
                     <h5 className="font-bold text-3xl">SKILLS</h5>
                 </div>
 

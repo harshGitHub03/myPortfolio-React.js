@@ -16,13 +16,13 @@ function Projects() {
                 </div>
             </div>
 
-            <div className='bg-[#EEF5FF] h-fit w-[85vw] md:w-[80vw] py-8 flex items-center justify-center flex-wrap gap-8'>
+            <div className='bg-[#EEF5FF] h-fit w-[85vw] md:w-[80vw] py-8 px-2 flex items-center justify-center flex-wrap gap-12 gap-y-10'>
                 {projectsAssets.map((element,i) => {
                     return <>
                         <div key={i} className='h-fit w-[270px] md:w-[35vw] lg:w-[25vw]  bg-[#EEF7FF] shadow-xl hover:shadow-2xl hover:scale-[1.02] duration-[75ms] relative'>
                             <img src={element.image} className='w-fit hover:scale-110 duration-150' alt='img' />
                             <div className='p-2 pl-3 w-[90%] text-[#090A0E] flex flex-col gap-[0.5rem]'>
-                                <h3 className='text-lg font-semibold'>{element.name}</h3>
+                                <h3 className='text-lg font-semibold'>{element.name}<a href={element.deployLink}><i className="fa-solid fa-up-right-from-square text-xl p-1 px-3  hover:scale-125 active:text-blue-800 cursor-pointer" ></i></a></h3>
                                 <p className='w-full mb-1 text-sm text-[#4D505D]'>{element.discription}</p>
                                 <div className='flex gap-3 text-sm flex-wrap'>
                                     {element.technology.map((ele, i) => {
@@ -32,7 +32,7 @@ function Projects() {
                                 </div>
 
                                 {/* link to visit */}
-                                <a href={element.deployLink}><i className="fa-solid fa-up-right-from-square text-lg hover:scale-125 absolute bottom-2 right-3 cursor-pointer" ></i></a>
+                                <a href={element.deployLink}><i className="fa-solid fa-up-right-from-square text-xl hover:scale-125 absolute text-white bottom-3 right-3 cursor-pointer" ></i></a>
                             </div>
                         </div>
                     </>

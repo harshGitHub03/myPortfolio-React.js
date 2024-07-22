@@ -1,9 +1,9 @@
-import htmlLogo from "./htmlLogo.png"
-import cssLogo from "./cssLogo.png"
-import javascriptLogo from "./javascriptLogo.png"
-import reactLogo from "./reactLogo.png"
-import tailwindLogo from "./tailwindLogo.png"
-import bootstrapLogo from "./bootstrapLogo.png"
+import htmlLogo from "./Images/htmlLogo.png"
+import cssLogo from "./Images/cssLogo.png"
+import javascriptLogo from "./Images/javascriptLogo.png"
+import reactLogo from "./Images/reactLogo.png"
+import tailwindLogo from "./Images/tailwindLogo.png"
+import bootstrapLogo from "./Images/bootstrapLogo.png"
 
 const technology = [
     {
