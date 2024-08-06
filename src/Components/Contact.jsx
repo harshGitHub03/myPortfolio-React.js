@@ -1,6 +1,9 @@
 import react from 'react'
 
 const Contact = () => {
+    const scrollTop=()=>{
+        window.scrollTo({top:0});
+    }
     return <>
         <div className='flex flex-col gap-6 items-center bg-[#EEF5FF]'>
             <div id='contact' className='flex flex-col md:flex-row justify-center items-center gap-14 h-fit w-full py-7 mt-7  relative'>
@@ -46,7 +49,7 @@ const Contact = () => {
                 </form>
 
                 {/* scoll Top button */}
-                <a href="#navbar" className=" absolute bottom-[70px] right-9 text-sm p-2 rotate-[-90deg] hidden md:flex items-center gap-3 hover:bottom-[75px] text-gray-600  duration-100 ">
+                <a  onClick={()=>scrollTop()} className=" absolute bottom-[70px] right-9 text-sm p-2 rotate-[-90deg] hidden md:flex items-center gap-3 hover:bottom-[75px] text-gray-600  duration-100 ">
                     <p>swipe up</p>
                     <i className="fa-solid fa-arrow-right"></i>
                 </a>

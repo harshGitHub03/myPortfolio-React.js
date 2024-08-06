@@ -4,7 +4,7 @@ import { technology, frameWorks } from "../assets/skillsAssets/skillsAssets"
 const Skills = () => {
 
     return <>
-        <div id="skills" className="bg-[#EEF5FF] h-fit  w-screen flex flex-col lg:flex-row justify-evenly items-center  py-14 gap-5 sm:gap-0">
+        <div id="skills" className="bg-[#EEF5FF] h-fit  w-screen flex flex-col lg:flex-row justify-evenly items-center  py-16 gap-5 sm:gap-0">
             <div className="w-2/3 sm:w-1/3 flex flex-col items-center lg:items-start gap-2 sm:pl-10 ">
 
                 <div className="flex items-center gap-2 sm:gap-3 ">
@@ -39,7 +39,7 @@ const Skills = () => {
                 {/* frameworks react tailwind bootstrap */}
                 <div className="flex justify-center sm:justify-between  items-center h-fit flex-wrap gap-6  lg:py-0">
                     <h1 className="text-2xl text-center text-gray-600">Frameworks and Libraries</h1>
-                    <div className=' flex justify-center sm:justify-between  items-center w-[100%] h-fit flex-wrap gap-3  pt-3 lg:py-0'>
+                    <div className=' flex justify-center sm:justify-evenly  items-center w-[100%] h-fit flex-wrap gap-3  pt-3 lg:py-0'>
                         {
                             frameWorks.map((element, i) => {
                                 return <>

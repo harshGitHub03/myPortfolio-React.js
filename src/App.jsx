@@ -6,17 +6,15 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact"
 const App = () => {
-const [hamburgerIcon,setHamburgerIcon]=useState(true)
 
   return <>
+    <Navbar />
     <div className="overflow-x-hidden">
-
-      <Navbar hamburgerIcon={hamburgerIcon} setHamburgerIcon={setHamburgerIcon}/>
       <Home />
       <About />
       <Skills />
       <Projects />
-      <Contact/>
+      <Contact />
     </div>
   </>
 }

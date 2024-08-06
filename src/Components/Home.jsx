@@ -3,9 +3,12 @@ import splashImg from "../assets/general/splash.png"
 import homeImg from "../assets/general/homeImg.jpg"
 
 const Home = () => {
+    const scrollTop=()=>{
+        window.scrollTo(0, document.body.scrollHeight);
+    }
     return <>
         <div id="home" className="animate-fadeIn relative h-fit  w-screen bg-[#EEF5FF] flex justify-center items-center">
-            <div className=" w-screen flex  min-h-[87vh] h-fit justify-around items-center flex-col-reverse gap- sm:gap-0 sm:flex-row py-2">
+            <div className=" w-screen flex  min-h-[89vh] gap-14 h-fit justify-center items-center flex-col-reverse gap- sm:gap-0 sm:flex-row py-5 ">
 
                 {/* text section */}
                 <div className=" w-2/5 flex max-sm:gap-2 flex-col ">
@@ -24,7 +27,7 @@ const Home = () => {
                 </div>
 
                 {/* image section */}
-                <img src={homeImg} className="w-[40vw] max-[500px]:w-[60vw] max-sm:w-[56vw] sm:pb-8" />
+                <img src={homeImg} className="w-[40vw] max-[500px]:w-[80vw] max-sm:w-[60vw] sm:pb-8" />
 
             </div>
 
@@ -38,7 +41,7 @@ const Home = () => {
             </div>
 
             {/* swipe down button */}
-            <a href="#contact" className="absolute bottom-[80px] right-6 text-[0.7rem] sm:text-sm p-2 rotate-90 flex items-center gap-3 hover:bottom-[75px] text-gray-900  duration-100 ">
+            <a onClick={()=>scrollTop()} className="absolute bottom-[80px] right-6 text-[0.7rem] sm:text-sm p-2 rotate-90 flex items-center gap-3 hover:bottom-[75px] text-gray-900  duration-100 ">
                 <p>swipe down</p>
                 <i className="fa-solid fa-arrow-right"></i>
             </a>

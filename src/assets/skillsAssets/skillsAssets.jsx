@@ -4,36 +4,46 @@ import javascriptLogo from "./Images/javascriptLogo.png"
 import reactLogo from "./Images/reactLogo.png"
 import tailwindLogo from "./Images/tailwindLogo.png"
 import bootstrapLogo from "./Images/bootstrapLogo.png"
+import reduxToolkit from "./Images/reduxToolkit.png"
+import githubLogo from "./Images/githubLogo.png"
 
 const technology = [
     {
-        image:htmlLogo,
+        image: htmlLogo,
         text: "Html 5"
     },
     {
-        image:cssLogo,
-        text:"CSS 3"
+        image: cssLogo,
+        text: "CSS 3"
     },
     {
-        image:javascriptLogo,
-        text:"Javascript"
+        image: javascriptLogo,
+        text: "Javascript"
     }
 
 ]
 
-const frameWorks=[
+const frameWorks = [
     {
-        image:reactLogo,
-        text:"React Js"
+        image: reactLogo,
+        text: "React Js"
     },
     {
-        image:tailwindLogo,
-        text:"Tailwind Css"
+        image: reduxToolkit,
+        text: "Redux Toolkit"
     },
     {
-        image:bootstrapLogo,
-        text:"Bootstrap"
+        image: tailwindLogo,
+        text: "Tailwind Css"
+    },
+    {
+        image: bootstrapLogo,
+        text: "Bootstrap"
+    },
+    {
+        image: githubLogo,
+        text: "Git hub"
     }
 ]
 
-export  {technology,frameWorks}
+export { technology, frameWorks }
